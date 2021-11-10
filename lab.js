@@ -13,14 +13,13 @@
 //   console.log("Coding has its challenge.");
 // }
 
-
 //CODE HERE
 
 // For problems 2-3 use the following lines of code:
-var amysAge = 29
-var brittanisAge = 34
-var amysBirthYear = 1991
-var brittanisBirthYear = 1986
+var amysAge = 29;
+var brittanisAge = 34;
+var amysBirthYear = 1991;
+var brittanisBirthYear = 1986;
 
 ////////// PROBLEM 2 //////////
 
@@ -38,7 +37,6 @@ var brittanisBirthYear = 1986
 //   console.log('Brittani is older');
 // }
 
-
 ////////// PROBLEM 3 //////////
 
 /*
@@ -53,11 +51,10 @@ var brittanisBirthYear = 1986
 //   console.log("Amy & Brittani were not born in the same year.")
 // }
 
-
 ////////// PROBLEM 4 //////////
 
-let temperature = 55
-let rain = true
+let temperature = 100;
+let rain = true;
 
 /*
   Using an if statement and a comparison operator, create code that will log a suggestion on what type of clothes one should wear for the day, based on the above temperature and rain.
@@ -66,20 +63,17 @@ let rain = true
 
 //CODE HERE
 
-if(temperature >= 80 && rain === true){
-  console.log('You should wear a t-shirt and take an umbrella');
-} else if(temperature > 60 && temperature <80 && rain === true){
-  console.log('You one should wear a rain-jacket');
-} else if(temperature <= 60){
-  console.log('You should wear a jacket and carry an umbrella');
-} else if (temperature >=80){
-  console.log('You should wear t-shirts and shorts');
-} else {
-  console.log('You should wear jeans and t-shirt');
-}
-
-
-
+// if(temperature >= 80 && rain === true){
+//   console.log('You should wear a t-shirt and take an umbrella');
+// } else if(temperature > 60 && temperature <80 && rain === true){
+//   console.log('You one should wear a rain-jacket');
+// } else if(temperature <= 60){
+//   console.log('You should wear a jacket and carry an umbrella');
+// } else if (temperature >=80){
+//   console.log('You should wear t-shirts and shorts');
+// } else {
+//   console.log('You should wear jeans and t-shirt');
+// }
 
 ////////// PROBLEM 5 //////////
 
@@ -89,6 +83,9 @@ if(temperature >= 80 && rain === true){
 
 //CODE HERE
 
+for (let i = 0; i < 10; i++) {
+  console.log('Hello');
+}
 
 ////////// PROBLEM 6 //////////
 
@@ -98,7 +95,6 @@ if(temperature >= 80 && rain === true){
 
 //CODE HERE
 
-
 ////////// PROBLEM 7 //////////
 
 /*
@@ -107,8 +103,8 @@ if(temperature >= 80 && rain === true){
 
 //CODE HERE
 
-let score = 0
-let passingScore = 7
+let score = 0;
+let passingScore = 7;
 
 ////////// PROBLEM 8 //////////
 
@@ -134,13 +130,11 @@ let passingScore = 7
 
 //CODE HERE
 
-
-
 ////////// ADVANCED PROBLEMS //////////
 
 ////////// PROBLEM 11 //////////
 
-let z = 5
+let z = 5;
 // Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1. Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
 //CODE HERE
