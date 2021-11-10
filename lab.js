@@ -136,17 +136,20 @@ let passingScore = 7;
 
 */
 
-let changeMyMind = true;
-if(changeMyMind === true){
-  changeMyMind = false;
-} else {
-  changeMyMind = true;
-}
+let changeMyMind = false;
+// if(changeMyMind === true){
+//   changeMyMind = false;
+// } else {
+//   changeMyMind = true;
+// }
 
 //CODE HERE
 
 ////////// PROBLEM 10 //////////
 // Try to change the value of changeMyMind (irrespective of whether it is true or false) and then console.log it's new status. It should log true. Hint: use the not operator.
+
+changeMyMind = !false;
+console.log(changeMyMind);
 
 //CODE HERE
 
