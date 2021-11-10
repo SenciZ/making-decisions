@@ -6,6 +6,14 @@
   If it is not, console log "Coding has its challenges."
 */
 
+// let lovesCode = true;
+// if(lovesCode === true ){
+//   console.log("I love to code!");
+// } else {
+//   console.log("Coding has its challenge.");
+// }
+
+
 //CODE HERE
 
 // For problems 2-3 use the following lines of code:
@@ -21,6 +29,14 @@ var brittanisBirthYear = 1986
 */
 
 //CODE HERE
+
+if (amysAge === brittanisAge){
+  console.log("They are the same age!");
+} else if (amysAge > brittanisAge){
+  console.log("Amy is older");
+} else {
+  console.log('Brittani is older');
+}
 
 
 ////////// PROBLEM 3 //////////
