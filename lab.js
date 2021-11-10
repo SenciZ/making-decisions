@@ -136,6 +136,13 @@ let passingScore = 7;
 
 */
 
+let changeMyMind = true;
+if(changeMyMind === true){
+  changeMyMind = false;
+} else {
+  changeMyMind = true;
+}
+
 //CODE HERE
 
 ////////// PROBLEM 10 //////////
